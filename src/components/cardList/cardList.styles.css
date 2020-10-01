@@ -1,0 +1,10 @@
+.cardList {
+    width: 85vw;
+    margin: 0 auto;
+    /*display children in a grid*/
+    display: grid;
+    /* grid should have 4 columns each equal to a fraction of the total space*/
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* between each column there should be 20px space*/
+    grid-gap: 20px;
+}
